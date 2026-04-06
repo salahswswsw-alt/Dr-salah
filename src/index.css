@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-medical-primary: #0056b3;
+  --color-medical-secondary: #eef4fb;
+  --color-medical-accent: #28a745;
+}
+
+body {
+  @apply font-sans text-gray-800 bg-white;
+  direction: rtl;
+}
+
+.medical-gradient {
+  background: linear-gradient(135deg, #0056b3 0%, #003d7a 100%);
+}
